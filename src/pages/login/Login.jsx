@@ -23,7 +23,7 @@ function Login() {
                     <LoginInput />
 
                     <label>Senha</label>
-                    <LoginInput />
+                    <LoginInput type="password"/>
                 </LoginInputArea>
 
                 <button>
