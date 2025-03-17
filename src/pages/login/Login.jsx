@@ -1,5 +1,5 @@
 import {LoginArea, SplashArtArea, PageContainer, LogoArea, LoginInputArea, LoginInput} from "./Login.style";
-import bgImage from "../../assets/img/restaurant01.jpg";
+import bgImage from "../../assets/img/restaurant01.jpg"
 import iconLogin from "../../assets/icon/icon-login.svg"
 
 function Login() {
@@ -8,7 +8,7 @@ function Login() {
       <>
         <PageContainer>
             <SplashArtArea>
-                <img src={bgImage}></img>
+                <img src={bgImage} />
             </SplashArtArea>
 
             <LoginArea>

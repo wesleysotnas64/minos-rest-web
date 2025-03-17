@@ -3,7 +3,7 @@ import {theme} from "../../themes.js"
 
 
 export const PageContainer = styled.div`
-    background: ${theme.colors.balck1};
+    background: ${theme.colors.black1};
     height: 100vh;
     width: 100vw;
     display: flex;
