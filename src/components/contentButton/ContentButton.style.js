@@ -9,6 +9,7 @@ export const MainContainer = styled.div`
     width: 100px;
     font-family: "Open Sans", sans-serif;
     color: ${theme.colors.white1};
+    border-radius: 10px;
 
     &:hover {
         background: ${theme.colors.red2};
@@ -17,18 +18,15 @@ export const MainContainer = styled.div`
     
 `;
 
-export const IconArea = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60%;
-    width: 100%;
-`;
-
 export const TitleArea = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40%;
+    height: 100%;
     width: 100%;
+
+    label{
+        text-align: center;
+    }
+
 `;

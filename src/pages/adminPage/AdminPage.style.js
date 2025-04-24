@@ -23,3 +23,10 @@ export const ContentArea = styled.div`
     flex-direction: column;
     align-items: center;
 `;
+
+export const GridButtons = styled.div`
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    gap: 20px;
+`;

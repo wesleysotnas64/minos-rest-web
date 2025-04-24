@@ -1,7 +1,7 @@
 import ContentButton from "../../components/contentButton/ContentButton";
 import HeaderBreadcrumb from "../../components/headerBreadcrumb/HeaderBreadcrumb"
 import SideBar from "../../components/sideBar/SideBar"
-import { ContentArea, PageContainer, SideBarArea } from "./AdminPage.style"
+import { ContentArea, PageContainer, SideBarArea, GridButtons } from "./AdminPage.style"
 
 function AdminPage() {
   const breadcrumbTrail = [
@@ -18,7 +18,12 @@ function AdminPage() {
           <ContentArea>
               <HeaderBreadcrumb trail={breadcrumbTrail}/>
 
-              <ContentButton title={"Controle"}/>
+              <GridButtons>
+                <ContentButton title={"Níveis de Acesso"}/>
+                <ContentButton title={"Usuários"}/>
+                <ContentButton title={"Estoque"}/>
+                <ContentButton title={"Em breve..."}/>
+              </GridButtons>
           </ContentArea>
       </PageContainer>
     </>
